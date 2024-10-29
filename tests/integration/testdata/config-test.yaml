@@ -1,0 +1,8 @@
+default-secrets: "mysecrets"
+
+secrets:
+  name: "mysecrets"
+  plugin: "aws.secretsmanager"
+  config:
+    region: ${env.PORTER_TEST_SECRETS_MANAGER_REGION}
+

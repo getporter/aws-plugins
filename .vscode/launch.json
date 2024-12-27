@@ -26,31 +26,6 @@
         "maxArrayValues": 64,
         "maxStructFields": -1
       }
-    },
-    {
-      "preLaunchTask": "SetupPluginAndRunPorter",
-      "name": "Debug Plugin",
-      "type": "go",
-      "request": "attach",
-      "mode": "remote",
-      "host": "127.0.0.1",
-      "port": 2345,
-      "cwd": "${workspaceRoot}/cmd/aws", 
-      "remotePath": "${workspaceRoot}/cmd/aws", 
-      "windows": {
-        "cwd": "${workspaceRoot}\\cmd\\aws", 
-        "remotePath": "${workspaceRoot}\\cmd\\aws", 
-      },
-      "showLog": true,
-      "trace": "verbose",
-      "dlvLoadConfig":{
-        "followPointers": true,
-        "maxVariableRecurse": 1,
-        "maxStringLen": 128,
-        "maxArrayValues": 64,
-        "maxStructFields": -1
-      },
-      "postDebugTask": "KillDebugProcesses"
-    },
+    }
   ]
 }

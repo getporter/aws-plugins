@@ -39,3 +39,7 @@ Below are some commonly used targets:
 * `Build` builds the plugin.
 * `Install` installs the plugin into **~/.porter/plugins**.
 * `TestUnit` runs the unit tests.
+
+## Debugging
+
+To debug the plugin, follow the instructions in the [porter plugin debugging guide](https://porter.sh/docs/contribute/guide/#plugin-debugging).

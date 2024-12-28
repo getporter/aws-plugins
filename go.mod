@@ -1,7 +1,7 @@
 module get.porter.sh/plugin/aws
 
-go 1.21
-toolchain go1.23.4
+go 1.23
+toolchain go1.23.3
 
 replace (
 	github.com/hashicorp/go-plugin => github.com/getporter/go-plugin v1.4.4-porter.1

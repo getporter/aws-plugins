@@ -1,4 +1,4 @@
-package keyvault
+package secretsmanager
 
 import (
 	"os"

@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"get.porter.sh/plugin/aws/pkg/aws/awsconfig"
-	"get.porter.sh/plugin/aws/pkg/aws/keyvault"
+	"get.porter.sh/plugin/aws/pkg/aws/secretsmanager"
 	"get.porter.sh/porter/pkg/plugins"
 	"get.porter.sh/porter/pkg/portercontext"
 	secretsplugins "get.porter.sh/porter/pkg/secrets/plugins"
@@ -75,6 +75,6 @@ type pluginInitializer func(ctx *portercontext.Context, cfg awsconfig.Config) pl
 
 func getPlugins() map[string]pluginInitializer {
 	return map[string]pluginInitializer{
-		keyvault.PluginInterface: keyvault.NewPlugin,
+		secretsmanager.PluginInterface: secretsmanager.NewPlugin,
 	}
 }

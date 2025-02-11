@@ -16,7 +16,7 @@ require (
 	get.porter.sh/porter v1.2.1
 	github.com/aws/aws-sdk-go-v2 v1.36.1
 	github.com/aws/aws-sdk-go-v2/config v1.29.6
-	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.2
+	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.18
 	github.com/aws/smithy-go v1.22.2
 	github.com/carolynvs/magex v0.9.0
 	github.com/hashicorp/go-hclog v1.6.3

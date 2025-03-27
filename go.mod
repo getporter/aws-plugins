@@ -2,8 +2,6 @@ module get.porter.sh/plugin/aws
 
 go 1.23
 
-toolchain go1.23.3
-
 replace (
 	github.com/hashicorp/go-plugin => github.com/getporter/go-plugin v1.4.4-porter.1
 
@@ -14,7 +12,7 @@ replace (
 require (
 	get.porter.sh/magefiles v0.6.10
 	get.porter.sh/porter v1.2.1
-	github.com/aws/aws-sdk-go-v2 v1.36.1
+	github.com/aws/aws-sdk-go-v2 v1.36.3
 	github.com/aws/aws-sdk-go-v2/config v1.29.6
 	github.com/aws/aws-sdk-go-v2/service/secretsmanager v1.34.18
 	github.com/aws/smithy-go v1.22.3

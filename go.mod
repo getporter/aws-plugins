@@ -10,7 +10,7 @@ replace (
 )
 
 require (
-	get.porter.sh/magefiles v0.6.11
+	get.porter.sh/magefiles v0.6.12
 	get.porter.sh/porter v1.3.0
 	github.com/aws/aws-sdk-go-v2 v1.39.0
 	github.com/aws/aws-sdk-go-v2/config v1.31.8
